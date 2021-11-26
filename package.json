@@ -1,0 +1,29 @@
+{
+  "name": "graphql-part8",
+  "version": "1.0.0",
+  "description": "\"Learn GraphQL\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "logs:prod": "heroku logs --tail",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.1",
+    "apollo-server-core": "^3.5.0",
+    "apollo-server-express": "^3.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "graphql": "^15.7.2",
+    "graphql-subscriptions": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "mongoose-unique-validator": "^3.0.0",
+    "nodemon": "^2.0.14",
+    "subscriptions-transport-ws": "^0.11.0",
+    "uuid": "^8.3.2"
+  }
+}

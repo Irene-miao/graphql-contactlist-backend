@@ -8,6 +8,11 @@ const schema = new mongoose.Schema({
         unique: true,
         minlength: 3
     },
+    password: {
+        type: String,
+        required: true,
+        minlength: 5
+    },
     friends: [
         {
             type: mongoose.Schema.Types.ObjectId,
